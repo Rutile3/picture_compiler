@@ -1,47 +1,40 @@
+
 # ![picture_compiler](https://i.gyazo.com/7f839c1cf11fdd0afd28e80b32319251.png)
+
+## 📗 概要
 
 フォルダー内の画像を綴り、pdfファイルを作成します。
 
-## 仮想環境の構築＆起動
+## 🪄 使い方
 
-Windows環境を前提に記述します。
+TODO
 
-仮想環境の作成
+## 💻 開発環境
 
-``` powershell
-python -m venv venv
-```
+- Python（Python3）
+- VSCode（Visual Studio Code）
 
-仮想環境の起動
+## 🔨 開発環境構築
 
-``` powershell
-.\venv\Scripts\activate
-```
+この手順は、Windows環境でPythonとVSCodeは既にインストールされていることを前提に記述しています。
 
-セキュリティポリシーに引っかかる場合
+ターミナル（PowerShell）で、以下のコマンドを順に実行してください。
 
 ``` powershell
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process    
+# 実行ポリシーの一時的な変更
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+python -m venv venv # 仮想環境の作成
+.\venv\Scripts\activate # 仮想環境の起動
+pip install -r requirements.txt # 依存関係の一括インストール
 ```
 
-仮想環境の停止
+## 🎫 ライセンス
 
-``` powershell
-deactivate
-```
+- [MIT](LICENSE)  
 
-## 単体テスト
+## 👀 著者
 
-``` powershell
-\picture_compiler> pytest tests
-```
-
-## exe化
-
-``` powershell
-pyinstaller .\main.py --clean --onefile --name=picture_compiler.exe
-```
-
-``` powershell
-pyinstaller main.spec --onefile
-```
+- [Github](https://github.com/Rutile3)
+- [X（旧Twitter）](https://x.com/Rutile_Darkness)
+- [Cosense（旧Scrapbox）](https://scrapbox.io/Rutile3-Tech/)  
