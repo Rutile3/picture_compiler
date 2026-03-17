@@ -36,5 +36,5 @@ pip install -r requirements.txt # 依存関係の一括インストール
 ## 👀 著者
 
 - [Github](https://github.com/Rutile3)
-- [X（旧Twitter）](https://x.com/Rutile_Darkness)
+- [X（旧Twitter）](https://x.com/Rutile_Sun)
 - [Cosense（旧Scrapbox）](https://scrapbox.io/Rutile3-Tech/)  
